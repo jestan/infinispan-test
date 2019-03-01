@@ -1,0 +1,45 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.idea
+target
+*.ipr
+*.iml
+*.*~
+
+*.log
+
+# ansible
+deps
+
+.DS_Store
+logs/*
+!.gitkeep
+node_modules
+package-lock.json
+
+npm-debug.log*
+target-grunt
+jslibs
+build
+arogya-web/node
+
+#Android Studio
+.gradle
+/local.properties
+/build
+/captures
+.externalNativeBuild
+bundle.js
+
+#Ansible
+*.retry
+
+#terraform
+.terraform*
+terraform.tfstate*
